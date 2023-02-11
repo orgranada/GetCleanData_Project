@@ -1,0 +1,26 @@
+---
+title: "GETTING AND CLEANING DATA COURSE PROJECT"
+author: "Oscar Ramirez"
+date: "`r Sys.Date()`"
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+This repo is a submission for the *Getting and Cleaning Data*'s course project. It contains both the datasets and instructions for its processing.
+
+# CONTENT
+
+-   **UCI HAR Dataset:** Data on human activity recognition, according to the following research: *Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012*
+-   **run_analysis.R:** prepares the data and then performs required processes in accord to the course's evaluation criteria:
+    -   Marges the trainning and test datasets in order to creat a consolidated one.
+
+    -   Extracts only mean and standard deviation for each measurement.
+
+    -   Replace activity codes for descriptive activity names.
+
+    -   Replace variable names for more descriptive ones.
+
+    -   Creates a final dataset with the average of each variable, for each activity and each subject.
+-   **FinalData.txt:** is the final output after the processing mentions previously.
+-   **CodeBook.Rmd:** documentation on data processing.
